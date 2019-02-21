@@ -58,9 +58,9 @@ namespace Zefugi.DevConsole
         {
             InitializeComponent();
 
-            WriteLine("Zefugi - Dev Console v" + VERSION_TEXT + " by Zefugi (http://github.com/Zefugi/)", Color.BurlyWood);
+            WriteLine("Zefugi - Dev Console v" + VERSION_TEXT + " by Zefugi (https://github.com/Zefugi/)", Color.BurlyWood);
             WriteLine("Distibuted under an MIT license.", Color.BurlyWood);
-            WriteLine("See http://github.com/Zefugi/DevConsole for more info.", Color.BurlyWood);
+            WriteLine("See https://github.com/Zefugi/DevConsole for more info.", Color.BurlyWood);
             WriteLine("");
             WriteLine("Console ready, type 'help' for help.", Color.BurlyWood);
             WriteLine("");
