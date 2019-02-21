@@ -27,7 +27,7 @@ namespace Zefugi.DevConsole
             helpText.AppendLine();
             helpText.AppendLine("To get help on a specific command type 'help <commandName>'");
             helpText.AppendLine();
-            helpText.AppendLine("For more information see http://github.com/Zefugi/DevConsole");
+            helpText.AppendLine("For more information see https://github.com/Zefugi/DevConsole");
             context.Window.WriteInfo(helpText.ToString());
         }
 
