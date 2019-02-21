@@ -33,7 +33,7 @@ static class MyCommands
             context.Window.WriteInfo("Hello " + name);
         }
 
-        [CliCommand("This will add two ints.", "<your name>")]
+        [CliCommand("This will add two ints.", "<number> <number>")]
         public static void Add(CliInvocationContext context, int a, int b)
         {
             context.Window.WriteInfo(
